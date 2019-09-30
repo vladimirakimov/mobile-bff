@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <DebugType>Full</DebugType>
+    <ProjectGuid>{30000000-0000-0000-0000-000000000005}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="CSharpFunctionalExtensions" Version="1.17.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITG.Brix.Mobile.Bff.Domain\ITG.Brix.Mobile.Bff.Domain.csproj" />
+    <ProjectReference Include="..\ITG.Brix.Mobile.Bff.Infrastructure\ITG.Brix.Mobile.Bff.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
